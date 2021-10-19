@@ -5,13 +5,14 @@ import Row3 from "./Row3";
 import Row4 from "./Row4";
 import Row5 from "./Row5";
 import Row6 from "./Row6";
+import './rowcomb.css'
 
 
 class Rowcomb extends React.Component {
   render() {
     return (
         <div className="Rowcomb"> 
-     <Row1/>
+     <Row1/><br/><br/><br/>
      <Row2/>
      <Row3/>
      <Row4/>
